@@ -1,6 +1,5 @@
 const {Router}=require("express");
 const authentication=require("../middleware/authentication");
-const { rawListeners } = require("../models/todo.model");
 const todo=Router();
 const Todo=require("../models/todo.model")
 
